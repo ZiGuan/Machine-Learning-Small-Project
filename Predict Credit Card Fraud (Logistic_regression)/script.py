@@ -4,9 +4,13 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import os
+
+cwd = os.getcwd()
+print(cwd)
 
 # Load the data
-transactions = pd.read_csv('transactions_modified.csv')
+transactions = pd.read_csv('Predict Credit Card Fraud (Logistic_regression)/transactions_modified.csv')
 print(transactions.head())
 print(transactions.info())
 
