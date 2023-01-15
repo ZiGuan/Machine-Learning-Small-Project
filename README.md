@@ -11,8 +11,8 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 Example of linear regression:
 
-```
-from sklearn.linear_model import LinearRegression                                          # Import linear regression function from scikit-learn linear_model module
+
+```from sklearn.linear_model import LinearRegression                                          # Import linear regression function from scikit-learn linear_model module
 import matplotlib.pyplot as plt
 import numpy as np
 
