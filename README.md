@@ -30,7 +30,7 @@ plt.plot(temperature, sales_predict, 'x')
 plt.show()
 ````
 ### Result 
-![]('https://github.com/ZiGuan/Machine-Learning-Small-Project/blob/main/linear_regression_result.png')
+![](/linear_regression_result.png)
 
 
 
