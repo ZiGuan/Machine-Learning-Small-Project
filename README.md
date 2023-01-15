@@ -9,7 +9,7 @@ Linear regression analysis is used to predict the value of a dependent variable 
 * The tax rate of a country vs. its GDP. Can we predict taxation based on a country’s GDP?
 * The amount of chips left in the bag vs. number of chips taken. Can we predict how much longer this bag of chips will last, given how much people at this party have been eating?
 
-Example of linear regression:
+### Example of linear regression:
 
 ````
 from sklearn.linear_model import LinearRegression                                          # Import linear regression function from scikit-learn linear_model module
@@ -25,10 +25,19 @@ sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20,
 
 line_fitter.fit(temperature,sales)                                                         # Fit the model with label 
 sales_predict = line_fitter.predict(temperature) 
+plt.xlabel('Temperature')
+plt.ylabel('Sales')
 plt.plot(temperature, sales, 'o')
 plt.plot(temperature, sales_predict, 'x')
 plt.show()
 ````
+### Result
+<<<<<<< HEAD
+![](/images/linear_regression_result.png)
+=======
+![](/linear_regression_result.png)
+>>>>>>> 73ffc0366b192f018764f8e623db4420629282fe
+
 
 
 
