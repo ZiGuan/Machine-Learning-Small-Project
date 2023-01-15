@@ -25,11 +25,13 @@ sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20,
 
 line_fitter.fit(temperature,sales)                                                         # Fit the model with label 
 sales_predict = line_fitter.predict(temperature) 
+plt.xlabel('Temperature')
+plt.ylabel('Sales')
 plt.plot(temperature, sales, 'o')
 plt.plot(temperature, sales_predict, 'x')
 plt.show()
 ````
-### Result 
+### Result
 ![](/linear_regression_result.png)
 
 
