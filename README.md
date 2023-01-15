@@ -1,7 +1,7 @@
 # Supervised Learning Algorithms
 
 ### Linear Regression / Multiple Linear Regression
-Linear regression analysis is used to predict the value of a dependent variable based on the value of another independent variable. This form of analysis estimates the coefficients of the linear equation, involving one `linear regression` or more independent variables `multiple linear regression` that best predict the value of the dependent variable.
+Linear regression analysis is used to predict the value of a dependent variable based on the value of another independent variable. This form of analysis estimates the coefficients of the linear equation, involving one ==linear regression== or more independent variables `multiple linear regression` that best predict the value of the dependent variable.
 
 ### Examples of linear regression:
 
@@ -20,7 +20,7 @@ line_fitter = LinearRegression()                                                
 
 temperature = np.array(range(60, 100, 2))
 print(temperature)
-temperature = temperature.reshape(-1, 1)                                                  # Reshape to 2D array
+temperature = temperature.reshape(-1, 1)                                                   # Reshape to 2D array
 sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20, 15, 5]
 
 line_fitter.fit(temperature,sales)                                                         # Fit the model with label 
