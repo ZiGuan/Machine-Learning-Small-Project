@@ -1,12 +1,12 @@
 # Supervised Learning Algorithms
 
-## Linear Regression / Multiple Linear Regression
+### Linear Regression / Multiple Linear Regression
 
-## Logisitic Regression
+### Logisitic Regression
 
-## K-Neighbor-Nearest (KNN)
+### K-Neighbor-Nearest (KNN)
 
-## Decision Tree
+### Decision Tree
 
 
 
