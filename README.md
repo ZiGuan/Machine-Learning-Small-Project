@@ -11,6 +11,24 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 Example of linear regression:
 
+```
+from sklearn.linear_model import LinearRegression                                          # Import linear regression function from scikit-learn linear_model module
+import matplotlib.pyplot as plt
+import numpy as np
+
+line_fitter = LinearRegression()                                                           # Create linear regression model
+
+temperature = np.array(range(60, 100, 2))
+print(temperature)
+temperature = temperature.reshape(-1, 1)                                                  # Reshape to 2D array
+sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20, 15, 5]
+
+line_fitter.fit(temperature,sales)                                                         # Fit the model with label 
+sales_predict = line_fitter.predict(temperature) 
+plt.plot(temperature, sales, 'o')
+plt.plot(temperature, sales_predict, 'x')
+plt.show()
+```
 
 
 
