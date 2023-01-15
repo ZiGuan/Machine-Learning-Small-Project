@@ -32,14 +32,7 @@ plt.plot(temperature, sales_predict, 'x')
 plt.show()
 ````
 ### Result
-<<<<<<< HEAD
 ![](/images/linear_regression_result.png)
-=======
-![](/linear_regression_result.png)
->>>>>>> 73ffc0366b192f018764f8e623db4420629282fe
-
-
-
 
 
 
