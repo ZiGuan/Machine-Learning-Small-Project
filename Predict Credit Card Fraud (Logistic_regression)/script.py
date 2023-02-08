@@ -11,6 +11,7 @@ print(cwd)
 
 # Load the data
 transactions = pd.read_csv('Predict Credit Card Fraud (Logistic_regression)/transactions_modified.csv')
+
 print(transactions.head())
 print(transactions.info())
 
