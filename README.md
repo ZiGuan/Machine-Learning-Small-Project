@@ -9,30 +9,49 @@ Linear regression analysis is used to predict the value of a dependent variable 
 * The tax rate of a country vs. its GDP. Can we predict taxation based on a country’s GDP?
 * The amount of chips left in the bag vs. number of chips taken. Can we predict how much longer this bag of chips will last, given how much people at this party have been eating?
 
-### Example of linear regression:
+#### Points and Lines
 
-````
-from sklearn.linear_model import LinearRegression                                          # Import linear regression function from scikit-learn linear_model module
-import matplotlib.pyplot as plt
-import numpy as np
+y = m*x+c 
 
-line_fitter = LinearRegression()                                                           # Create linear regression model
+`m` is the slope
+`b` is the intercept
+`y` is a given point on the y-axis, and it corresponds to a given `x` on the x-axis
 
-temperature = np.array(range(60, 100, 2))
-print(temperature)
-temperature = temperature.reshape(-1, 1)                                                  # Reshape to 2D array
-sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20, 15, 5]
+#### Gradient Descent for Intercept
 
-line_fitter.fit(temperature,sales)                                                         # Fit the model with label 
-sales_predict = line_fitter.predict(temperature) 
-plt.xlabel('Temperature')
-plt.ylabel('Sales')
-plt.plot(temperature, sales, 'o')
-plt.plot(temperature, sales_predict, 'x')
-plt.show()
-````
-### Result
-![](/images/linear_regression_result.png)
+![](images/gradient_descent.png)
+
+`N` is the number of points we have in our dataset
+`m` is the current gradient guess
+`b` is the current intercept guess
+
+#### Gradient Descent for Slope
+
+![](images/gradient_descent_slope.png)
+
+`N` is the number of points you have in your dataset
+`m` is the current gradient guess
+`b` is the current intercept guess
+
+#### Linear Regression in Scikit-learn
+
+```
+from sklearn.linear_model import LinearRegression
+
+line_fitter = LinearRegression()
+line_fitter.fit(X, y)
+y_predicted = line_fitter.predict(X)
+
+```
+
+The .fit() method gives the model two variables that are useful to us:
+
+`line_fitter.coef_`, which contains the slope
+`the line_fitter.intercept_`, which contains the intercept
+
+
+
+
 
 
 
