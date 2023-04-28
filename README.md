@@ -55,7 +55,7 @@ The .fit() method gives the model two variables that are useful to us:
 Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
 
 #### Multiple Linear Regression Equation
-$$ y = b + m1x1 + m2x2 + ... + mnxn $$
+$ y = b + m1x1 + m2x2 + ... + mnxn $
 Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
@@ -80,14 +80,15 @@ mlr.fit(x_train, y_train)
 # finds the coefficients and the intercept value
 
 y_predicted = mlr.predict(x_test)
+```
 
-#### Residual Analysis
+#### Residual Analysisgit
 
 One of the technique can evaluate the accuracy of our multiple linear regression model.
 
 The difference between the actual value y, and the predicted value ŷ is the `residual e`. The equation is:
 
-$$ e = y - ŷ $$
+$ e = y - ŷ $
 
 `sklearn`‘s `linear_model.LinearRegression` comes with a `.score()` method that returns the coefficient of determination R² of the prediction
 
