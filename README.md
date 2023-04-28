@@ -1,9 +1,9 @@
 # Supervised Learning Algorithms
 
-## Linear Regression / Multiple Linear Regression
-Linear regression analysis is used to predict the value of a dependent variable based on the value of another independent variable. This form of analysis estimates the coefficients of the linear equation, involving one `linear regression` or more independent variables `multiple linear regression` that best predict the value of the dependent variable.
+## Linear Regression 
+Linear regression analysis is used to predict the value of a dependent variable based on the value of another independent variable. 
 
-### Examples of linear regression:
+#### Examples of linear regression:
 
 * The market price of a house vs. the square footage of a house. Can we predict how much a house will sell for, given its size?
 * The tax rate of a country vs. its GDP. Can we predict taxation based on a country’s GDP?
@@ -49,6 +49,49 @@ The .fit() method gives the model two variables that are useful to us:
 `line_fitter.coef_`, which contains the slope<br/>
 
 `line_fitter.intercept_`, which contains the intercept.<br/>
+
+## Multiple Linear Regression
+
+Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
+
+#### Multiple Linear Regression Equation
+$$ y = b + m1x1 + m2x2 + ... + mnxn $$
+Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the intercept that you want to find.
+
+#### Training Set vs. Test Set
+
+* `Training set`: the data used to fit the model
+* `Test set`: the data partitioned away at the very start of the experiment (to provide an unbiased evaluation of the model)
+
+![](images/set.png)
+
+```
+from sklearn.model_selection import train_test_split
+ 
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2)
+```
+#### Multiple Linear Regression in Scikit-learn
+
+```
+from sklearn.linear_model import LinearRegression
+
+mlr = LinearRegression()
+mlr.fit(x_train, y_train) 
+# finds the coefficients and the intercept value
+
+y_predicted = mlr.predict(x_test)
+
+#### Residual Analysis
+
+One of the technique can evaluate the accuracy of our multiple linear regression model.
+
+The difference between the actual value y, and the predicted value ŷ is the `residual e`. The equation is:
+
+$$ e = y - ŷ $$
+
+`sklearn`‘s `linear_model.LinearRegression` comes with a `.score()` method that returns the coefficient of determination R² of the prediction
+
+
 
 
 
