@@ -29,9 +29,9 @@ y = m*x+c
 
 ![](images/gradient_descent_slope.png)
 
-`N` is the number of points you have in your dataset
-`m` is the current gradient guess
-`b` is the current intercept guess
+`N` is the number of points you have in your dataset.
+`m` is the current gradient guess.
+`b` is the current intercept guess.
 
 #### Linear Regression in Scikit-learn
 
@@ -41,13 +41,12 @@ from sklearn.linear_model import LinearRegression
 line_fitter = LinearRegression()
 line_fitter.fit(X, y)
 y_predicted = line_fitter.predict(X)
-
 ```
 
 The .fit() method gives the model two variables that are useful to us:
 
-`line_fitter.coef_`, which contains the slope
-`the line_fitter.intercept_`, which contains the intercept
+`line_fitter.coef_`, which contains the slope.
+`the line_fitter.intercept_`, which contains the intercept.
 
 
 
