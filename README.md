@@ -49,38 +49,11 @@ Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the in
 
 ![](images/set.png)
 
-```
-from sklearn.model_selection import train_test_split
- 
-x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2)
-```
-#### Multiple Linear Regression in Scikit-learn
-
-```
-from sklearn.linear_model import LinearRegression
-
-mlr = LinearRegression()
-mlr.fit(x_train, y_train) 
-# finds the coefficients and the intercept value
-
-y_predicted = mlr.predict(x_test)
-```
-
 #### Residual Analysis
 
 One of the technique can evaluate the accuracy of our multiple linear regression model.The difference between the actual value y, and the predicted value ŷ is the `residual e`. The equation is:
 
 ` e = y - ŷ `
-
-`sklearn`‘s `linear_model.LinearRegression` comes with a `.score()` method that returns the coefficient of determination R² of the prediction
-
-
-
-
-
-
-
-
 
 ### Logisitic Regression
 
