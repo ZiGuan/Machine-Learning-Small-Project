@@ -33,29 +33,13 @@ y = m*x+c
 `m` is the current gradient guess.<br/>
 `b` is the current intercept guess.<br/>
 
-#### Linear Regression in Scikit-learn
-
-```
-from sklearn.linear_model import LinearRegression
-
-line_fitter = LinearRegression()
-line_fitter.fit(X, y)
-
-y_predicted = line_fitter.predict(X)
-```
-
-The .fit() method gives the model two variables that are useful to us:
-
-`line_fitter.coef_`, which contains the slope<br/>
-
-`line_fitter.intercept_`, which contains the intercept.<br/>
 
 ## Multiple Linear Regression
 
 Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
 
 #### Multiple Linear Regression Equation
-$$ y = b + m_1x_1 + m_2x_2 + ... + m_nx_n $$  <br/>
+y = b + m_1x_1 + m_2x_2 + ... + m_nx_n   <br/>
 Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
