@@ -11,7 +11,7 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 #### Points and Lines
 
-y = m*x+c 
+y = mx+c 
 
 `m` is the slope<br/>
 `b` is the intercept<br/>
@@ -39,7 +39,7 @@ y = m*x+c
 Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
 
 #### Multiple Linear Regression Equation
-y = b + m_1x_1 + m_2x_2 + ... + m_nx_n   <br/>
+y = b + m1x1 + m2x2 + ... + mnxn   <br/>
 Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
