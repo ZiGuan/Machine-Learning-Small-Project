@@ -19,7 +19,7 @@ y = mx+c
 
 #### Gradient Descent for Intercept
 
-![](images/gradient_descent.png)
+![](images/gradient_descent.png](https://lh3.googleusercontent.com/prK671o6wzUPzCPCJEYfGgCXE27FcXP4D6xcx7zptaxJ88OyNvS7l33rC17Dl2J1dfV1IwyusXdO1qMil2oLbOr9RRP8YauxbMFaRnU)
 
 `N` is the number of points we have in our dataset<br/>
 `m` is the current gradient guess<br/>
@@ -39,7 +39,8 @@ y = mx+c
 Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
 
 #### Multiple Linear Regression Equation
-![](https://lh3.googleusercontent.com/xqfSqu2qKzaWXsVpjajlhETrxWl3Pmyn5f1oON1nm7IOv2JMSIz2NTRd8IfSb2I8nB5A6IYr-qEKV4Gu44qutvyctsSa77m6aJTNpKY)
+![](https://lh3.googleusercontent.com/xqfSqu2qKzaWXsVpjajlhETrxWl3Pmyn5f1oON1nm7IOv2JMSIz2NTRd8IfSb2I8nB5A6IYr-qEKV4Gu44qutvyctsSa77m6aJTNpKY)</br>
+
 Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and `b` refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
