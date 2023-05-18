@@ -56,7 +56,7 @@ One of the technique can evaluate the accuracy of our multiple linear regression
 
 ` e = y - ŷ `
 
-### Logisitic Regression
+## Logisitic Regression
 Logistic regression is a supervised machine learning algorithm that predicts the probability, ranging from 0 to 1, of a datapoint belonging to a specific category, or class.
 
 #### Examples of logistic regression:
