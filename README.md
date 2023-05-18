@@ -3,7 +3,7 @@
 ## Linear Regression 
 `Linear regression` analysis is used to predict the value of a dependent variable based on the value of another independent variable. 
 
-#### Examples of linear regression:
+#### Examples of linear regression
 
 * The market price of a house vs. the square footage of a house. Can we predict how much a house will sell for, given its size?
 * The tax rate of a country vs. its GDP. Can we predict taxation based on a country’s GDP?
@@ -37,7 +37,7 @@
 ## Multiple Linear Regression
 `Multiple Linear Regression` uses two or more independent variables to predict the values of the dependent variable.
 
-#### Examples of multiple linear regression:
+#### Examples of multiple linear regression
 * Predicting the housing prices with many factors.
 * Medical research to analyze the relationship between a dependent variable and various independent variables
 
@@ -62,12 +62,12 @@ One of the technique can evaluate the accuracy of our multiple linear regression
 ## Logisitic Regression
 `Logistic regression` is a supervised machine learning algorithm that predicts the probability, ranging from 0 to 1, of a datapoint belonging to a specific category, or class.
 
-#### Examples of logistic regression:
+#### Examples of logistic regression
 * Disease identification — Is a tumor malignant?
 * Real or spam email?
 * Customer conversion — Will a customer arriving on a sign-up page enroll in a service?
 
-#### logit link function
+#### Logit Link Function
 ![](https://lh3.googleusercontent.com/G4ABSO-DX-LZl1i6QOH7jS0lKRupH3cF-bMPLoZts9UK3Kvz32shLjVjlLD08S2dNqDZtb2B0HzGd305MOQ83B9Tpd1G5leQ42MprUgo)
 
 #### Classification Threshold 
@@ -78,21 +78,27 @@ Once we have this probability, we need to make a decision about what class a dat
 ## K-Neighbor-Nearest (KNN)
 `K-Nearest Neighbors (KNN)` is a classification algorithm. The central idea is that data points with similar attributes tend to fall into similar categories.
 
-#### Examples of K-Neighbor-Nearest (KNN):
+#### Examples of K-Neighbor-Nearest (KNN)
 * Customer Segmentation: Group customers with similar characteristics together.
 * Anomaly Detection: KNN can be used to detect anomalies or outliers in a dataset. 
 * Breast Cancer Classifier
 
 #### Distance Formula (Euclidean Distance)
+`Euclidean Distance` was used to find the distance between each points and find the nearest point.
 ![](https://lh3.googleusercontent.com/JIV-_GU3ue1K99wvRLCrgC0zhpNpg3Zg9Fb-ZuFJ_EXVrwsQsQwlcJYqVJLTqH6MBrNvg21OZpt9bSHOqdZq1xlllglslt6N-ynOFEs0)
 
 #### Three steps of the K-Nearest Neighbor Algorithm:
-
 1. Normalize the data
 2. Find the k nearest neighbors
 3. Classify the new point based on those neighbors
 
 ## Decision Tree
+Decision trees are machine learning models that try to find patterns in the features of data points. 
+![](https://content.codecademy.com/programs/data-science-path/decision-trees/tree_gif.gif)
+
+#### Examples of K-Neighbor-Nearest (Decision Tree)
+
+
 
 
 
