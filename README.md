@@ -73,7 +73,7 @@ One of the technique can evaluate the accuracy of our multiple linear regression
 #### Classification Threshold 
 Once we have this probability, we need to make a decision about what class a datapoint belongs to. This is where the `classification threshold` comes in!</br>
 
-![](https://lh3.googleusercontent.com/JQEHIq4V8cDXHp4D7pMgWiHGCTAqULN6_Mxa6m9Zcv2GAKFT2xMrta5hqOleNZSYfvwAo8A7pT9Ax14l5LRWOES9FjaITgDr5mI09-g5)
+![](https://content.codecademy.com/programs/data-science-path/logistic-regression/Threshold-01.svg)
 
 ## K-Neighbor-Nearest (KNN)
 `K-Nearest Neighbors (KNN)` is a classification algorithm. The central idea is that data points with similar attributes tend to fall into similar categories.
