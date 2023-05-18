@@ -19,7 +19,7 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 #### Gradient Descent for Intercept
 
-![](https://lh3.googleusercontent.com/prK671o6wzUPzCPCJEYfGgCXE27FcXP4D6xcx7zptaxJ88OyNvS7l33rC17Dl2J1dfV1IwyusXdO1qMil2oLbOr9RRP8YauxbMFaRnU)
+![](https://lh3.googleusercontent.com/ViGB8iHBaTpd60abMmmJFboFJ_faTjMYWWlVlWrzypMcMA_RFMbV1fXrCd78NK7W7qb-ZTkVuurg6FT7FC1pdMP0LkanqLQlTrMjl1kKcQ)
 
 `N` is the number of points we have in our dataset<br/>
 `m` is the current gradient guess<br/>
@@ -57,6 +57,21 @@ One of the technique can evaluate the accuracy of our multiple linear regression
 ` e = y - ŷ `
 
 ### Logisitic Regression
+Logistic regression is a supervised machine learning algorithm that predicts the probability, ranging from 0 to 1, of a datapoint belonging to a specific category, or class.
+
+#### Examples of logistic regression:
+* Disease identification — Is a tumor malignant?
+* Real or spam email?
+* Customer conversion — Will a customer arriving on a sign-up page enroll in a service?
+
+#### logit link function
+![](https://lh3.googleusercontent.com/G4ABSO-DX-LZl1i6QOH7jS0lKRupH3cF-bMPLoZts9UK3Kvz32shLjVjlLD08S2dNqDZtb2B0HzGd305MOQ83B9Tpd1G5leQ42MprUgo)
+
+#### Classification Threshold 
+Once we have this probability, we need to make a decision about what class a datapoint belongs to. This is where the `classification threshold` comes in!
+![](https://lh3.googleusercontent.com/JQEHIq4V8cDXHp4D7pMgWiHGCTAqULN6_Mxa6m9Zcv2GAKFT2xMrta5hqOleNZSYfvwAo8A7pT9Ax14l5LRWOES9FjaITgDr5mI09-g5)
+
+
 
 ### K-Neighbor-Nearest (KNN)
 
