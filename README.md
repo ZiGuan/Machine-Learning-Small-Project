@@ -1,7 +1,7 @@
 # Supervised Learning Algorithms
 
 ## Linear Regression 
-Linear regression analysis is used to predict the value of a dependent variable based on the value of another independent variable. 
+`Linear regression` analysis is used to predict the value of a dependent variable based on the value of another independent variable. 
 
 #### Examples of linear regression:
 
@@ -35,8 +35,11 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 
 ## Multiple Linear Regression
+`Multiple Linear Regression` uses two or more independent variables to predict the values of the dependent variable.
 
-Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
+#### Examples of multiple linear regression:
+* Predicting the housing prices with many factors.
+* Medical research to analyze the relationship between a dependent variable and various independent variables
 
 #### Multiple Linear Regression Equation
 ![](https://lh3.googleusercontent.com/xqfSqu2qKzaWXsVpjajlhETrxWl3Pmyn5f1oON1nm7IOv2JMSIz2NTRd8IfSb2I8nB5A6IYr-qEKV4Gu44qutvyctsSa77m6aJTNpKY)</br>
@@ -57,7 +60,7 @@ One of the technique can evaluate the accuracy of our multiple linear regression
 ` e = y - ŷ `
 
 ## Logisitic Regression
-Logistic regression is a supervised machine learning algorithm that predicts the probability, ranging from 0 to 1, of a datapoint belonging to a specific category, or class.
+`Logistic regression` is a supervised machine learning algorithm that predicts the probability, ranging from 0 to 1, of a datapoint belonging to a specific category, or class.
 
 #### Examples of logistic regression:
 * Disease identification — Is a tumor malignant?
@@ -68,14 +71,27 @@ Logistic regression is a supervised machine learning algorithm that predicts the
 ![](https://lh3.googleusercontent.com/G4ABSO-DX-LZl1i6QOH7jS0lKRupH3cF-bMPLoZts9UK3Kvz32shLjVjlLD08S2dNqDZtb2B0HzGd305MOQ83B9Tpd1G5leQ42MprUgo)
 
 #### Classification Threshold 
-Once we have this probability, we need to make a decision about what class a datapoint belongs to. This is where the `classification threshold` comes in!
+Once we have this probability, we need to make a decision about what class a datapoint belongs to. This is where the `classification threshold` comes in!</br>
+
 ![](https://lh3.googleusercontent.com/JQEHIq4V8cDXHp4D7pMgWiHGCTAqULN6_Mxa6m9Zcv2GAKFT2xMrta5hqOleNZSYfvwAo8A7pT9Ax14l5LRWOES9FjaITgDr5mI09-g5)
 
+## K-Neighbor-Nearest (KNN)
+`K-Nearest Neighbors (KNN)` is a classification algorithm. The central idea is that data points with similar attributes tend to fall into similar categories.
 
+#### Examples of K-Neighbor-Nearest (KNN):
+* Customer Segmentation: Group customers with similar characteristics together.
+* Anomaly Detection: KNN can be used to detect anomalies or outliers in a dataset. 
 
-### K-Neighbor-Nearest (KNN)
+#### Distance Formula (Euclidean Distance)
+![](https://lh3.googleusercontent.com/JIV-_GU3ue1K99wvRLCrgC0zhpNpg3Zg9Fb-ZuFJ_EXVrwsQsQwlcJYqVJLTqH6MBrNvg21OZpt9bSHOqdZq1xlllglslt6N-ynOFEs0)
 
-### Decision Tree
+#### Three steps of the K-Nearest Neighbor Algorithm:
+
+1. Normalize the data
+2. Find the k nearest neighbors
+3. Classify the new point based on those neighbors
+
+## Decision Tree
 
 
 
