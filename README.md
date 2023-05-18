@@ -39,7 +39,7 @@ y = mx+c
 Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
 
 #### Multiple Linear Regression Equation
-y = b + m1x1 + m2x2 + ... + mnxn   <br/>
+![]([images/gradient_descent_slope.png](https://lh3.googleusercontent.com/xqfSqu2qKzaWXsVpjajlhETrxWl3Pmyn5f1oON1nm7IOv2JMSIz2NTRd8IfSb2I8nB5A6IYr-qEKV4Gu44qutvyctsSa77m6aJTNpKY))
 Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and `b` refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
