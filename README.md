@@ -81,6 +81,7 @@ Once we have this probability, we need to make a decision about what class a dat
 #### Examples of K-Neighbor-Nearest (KNN):
 * Customer Segmentation: Group customers with similar characteristics together.
 * Anomaly Detection: KNN can be used to detect anomalies or outliers in a dataset. 
+* Breast Cancer Classifier
 
 #### Distance Formula (Euclidean Distance)
 ![](https://lh3.googleusercontent.com/JIV-_GU3ue1K99wvRLCrgC0zhpNpg3Zg9Fb-ZuFJ_EXVrwsQsQwlcJYqVJLTqH6MBrNvg21OZpt9bSHOqdZq1xlllglslt6N-ynOFEs0)
