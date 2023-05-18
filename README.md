@@ -19,7 +19,7 @@ y = mx+c
 
 #### Gradient Descent for Intercept
 
-![](images/gradient_descent.png](https://lh3.googleusercontent.com/prK671o6wzUPzCPCJEYfGgCXE27FcXP4D6xcx7zptaxJ88OyNvS7l33rC17Dl2J1dfV1IwyusXdO1qMil2oLbOr9RRP8YauxbMFaRnU)
+![](https://lh3.googleusercontent.com/prK671o6wzUPzCPCJEYfGgCXE27FcXP4D6xcx7zptaxJ88OyNvS7l33rC17Dl2J1dfV1IwyusXdO1qMil2oLbOr9RRP8YauxbMFaRnU)
 
 `N` is the number of points we have in our dataset<br/>
 `m` is the current gradient guess<br/>
