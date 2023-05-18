@@ -93,10 +93,20 @@ Once we have this probability, we need to make a decision about what class a dat
 3. Classify the new point based on those neighbors
 
 ## Decision Tree
-Decision trees are machine learning models that try to find patterns in the features of data points. 
+Decision trees are machine learning models that try to find patterns in the features of data points. <br/>
+About the example below, the red points represent students that didn’t get an A on a test and the green points represent students that did get an A on a test.</br>
 ![](https://content.codecademy.com/programs/data-science-path/decision-trees/tree_gif.gif)
 
 #### Examples of K-Neighbor-Nearest (Decision Tree)
+* Credit Risk Assessment: Decision trees can be used to assess the credit risk of individuals or businesses.
+* Disease Diagnosis: In the field of healthcare, decision trees can aid in diagnosing diseases. 
+* Product Recommendation: Decision trees can be utilized in recommendation systems. 
+
+#### Gini Impurity
+`Gini impurity` is a measure of the impurity or disorder in a set of data used in the context of decision tree algorithms. It quantifies how well a randomly selected element from a set would be classified incorrectly if it were randomly labeled according to the distribution of labels in the set. <br/>
+![](https://lh3.googleusercontent.com/bLZGIDh9UHWnOAIPoZN3fqS9zJ5aWlhDTvDY3vfOaeQf04rFwn8tqppZ3-tFYODTzGdJoHVWjEfuQ7wQdenF1Jb8hfpT8ttcF-an4NVf) <br/>
+where `p(i)` represents the probability of an element.
+
 
 
 
