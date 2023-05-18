@@ -40,7 +40,7 @@ Multiple Linear Regression uses two or more independent variables to predict the
 
 #### Multiple Linear Regression Equation
 y = b + m1x1 + m2x2 + ... + mnxn   <br/>
-Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and b refers to the intercept that you want to find.
+Here, `m1`, `m2`, `m3`, … mn refer to the coefficients, and `b` refers to the intercept that you want to find.
 
 #### Training Set vs. Test Set
 
