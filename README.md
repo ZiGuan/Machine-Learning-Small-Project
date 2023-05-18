@@ -11,7 +11,7 @@ Linear regression analysis is used to predict the value of a dependent variable 
 
 #### Points and Lines
 
-y = mx+c 
+![](https://lh3.googleusercontent.com/YPI2s5tug4qsSeQ0Q6CBD6Jj53wxmLo_2ECg-mUlzjxbysqs2YwTtN8NS5gFHBYK1mmL6NGCqdgDpsf_zUJo23gkB0smrIvR49ML-Hou) 
 
 `m` is the slope<br/>
 `b` is the intercept<br/>
@@ -27,7 +27,7 @@ y = mx+c
 
 #### Gradient Descent for Slope
 
-![](images/gradient_descent_slope.png)
+![](https://lh3.googleusercontent.com/ZZ-UXSrWLE-ltMaeKbNP6Ysgx2mrZHUq6APTXxft8F7EqrgzcxRvj-14xrP2zami83apDojhw4riymIt6bj5RWWBfLaaZXqcBEyCs9de)
 
 `N` is the number of points you have in your dataset.<br/>
 `m` is the current gradient guess.<br/>
