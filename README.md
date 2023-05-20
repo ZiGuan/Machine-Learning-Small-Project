@@ -97,7 +97,7 @@ Once we have this probability, we need to make a decision about what class a dat
 About the example below, the red points represent students that didn’t get an A on a test and the green points represent students that did get an A on a test.</br></br>
 ![](https://content.codecademy.com/programs/data-science-path/decision-trees/tree_gif.gif)
 
-#### Examples of K-Neighbor-Nearest (Decision Tree)
+#### Examples of Decision Tree
 * Credit Risk Assessment: Decision trees can be used to assess the credit risk of individuals or businesses.
 * Disease Diagnosis: In the field of healthcare, decision trees can aid in diagnosing diseases. 
 * Product Recommendation: Decision trees can be utilized in recommendation systems. 
@@ -106,6 +106,36 @@ About the example below, the red points represent students that didn’t get an 
 `Gini impurity` is a measure of the impurity or disorder in a set of data used in the context of decision tree algorithms. It quantifies how well a randomly selected element from a set would be classified incorrectly if it were randomly labeled according to the distribution of labels in the set. </br>
 ![](https://lh3.googleusercontent.com/bLZGIDh9UHWnOAIPoZN3fqS9zJ5aWlhDTvDY3vfOaeQf04rFwn8tqppZ3-tFYODTzGdJoHVWjEfuQ7wQdenF1Jb8hfpT8ttcF-an4NVf) </br>
 where `p(i)` represents the probability of an element.
+
+## Naive Bayes Classifier
+
+`Naive Bayes classifier` is a supervised machine learning algorithm that leverages Bayes’ Theorem to make predictions and classifications. </br></br>
+Bayes’ Theorem: </br>
+![](https://lh3.googleusercontent.com/TXhDQU3LU_CAUK4Vzy22PXSIGvIsLhq94ySIewTjbuBhvHzyX9HVy3u5nGN33WjBs2M6ahZ4rsjAaHS3kiLaC9QWK6Ce3ns6_rYeh3hD) </br>
+This equation is finding the probability of `A` given `B`
+
+#### Examples of Decision Tree
+* Spam Detection: Naive Bayes can be used to classify emails as either spam or non-spam.
+* Sentiment Analysis: Naive Bayes can be employed to determine the sentiment of a given text, such as a product review or a social media post.
+* Document Categorization: Naive Bayes can be used to automatically categorize documents into predefined categories. 
+
+## Support Vector Machine (SVM)
+
+`Support Vector Machine` makes classifications by defining a decision boundary and then seeing what side of the boundary an unclassified point falls on. Decision boundaries are easiest to wrap your head around when the data has two features.</br></br> 
+Binary Classification: </br>
+![](https://lh3.googleusercontent.com/3mkALoswcsALZEFug5zHulNyowEjYAfLQzzjs6tD9a5UrY7v4t5nDpqnSrpzHUSdOnHtebAzDlMoCfEew9HyevJvqvzHbZWtI9doxxqkJQ)
+Multi-Classification: </br>
+![](https://lh3.googleusercontent.com/aLH1TihJeXd0xS6UKlS6uN-VERKwDE3s4f1keOj9ULwWUpjireaFW66odOwLAf-QttTGRV9G8llttWmOmLxjteSEg2RFoi46XngiRD8uTg)
+
+#### Examples of Support Vector Machine
+* Text Classification: SVMs are commonly used for text classification tasks, such as sentiment analysis, spam detection, or topic categorization.
+* Image Classification: SVMs can be used for image classification tasks, such as recognizing objects or distinguishing between different types of images. 
+* Handwritten Digit Recognition: SVMs have been successfully applied to recognize handwritten digits. 
+
+#### Support Vectors and Margins
+`Support vectors` are the points in the training set closest to the decision boundary. `Margin` is the distance between a support vector and the decision boundary.
+
+
 
 
 
