@@ -146,9 +146,22 @@ Multi-Classification: </br>
 #### Bagging
 `Random forests` create different trees using a process known as `bagging`, which is short for `bootstrapped aggregating`. 
 
+## Boosting
+`Boosting` is a sequential learning technique where each of the base models builds off of the previous model. Each subsequent model aims to improve the performance of the final ensemble model by attempting to fix the errors in the previous stage. </br>
 
+There are two important decisions that need to be made to perform boosted ensembling:</br>
+* Sequential Fitting Method
+* Aggregation Method
 
+#### Adaptive Boosting Overview
 
+`Adaptive Boosting` (or `AdaBoost`) is a sequential ensembling method that can be used for both classification and regression. It can use any base machine learning model, though it is most commonly used with decision trees. </br></br>
+For `AdaBoost`, the `Sequential Fitting Method` is accomplished by updating the weight attached to each of the training dataset observations as we proceed from one base model to the next. The `Aggregation Method` is a weighted sum of those base models where the model weight is dependent on the error of that particular estimator.</br></br>
+
+#### Gradient Boosting Overview
+
+`Gradient Boosting` is a sequential ensembling method that can be used for both classification and regression. It can use any base machine learning model, though it is most commonly used with decision trees, known as Gradient Boosted Trees.</br></br>
+For `Gradient Boost`, the `Sequential Fitting Method` is accomplished by fitting a base model to the negative gradient of the error in the previous stage. The `Aggregation Method` is a weighted sum of those base models where the model weight is constant.</br></br>
 
 
 
