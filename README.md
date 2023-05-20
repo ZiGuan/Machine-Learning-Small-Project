@@ -114,7 +114,7 @@ Bayes’ Theorem: </br>
 ![](https://lh3.googleusercontent.com/TXhDQU3LU_CAUK4Vzy22PXSIGvIsLhq94ySIewTjbuBhvHzyX9HVy3u5nGN33WjBs2M6ahZ4rsjAaHS3kiLaC9QWK6Ce3ns6_rYeh3hD) </br>
 This equation is finding the probability of `A` given `B`
 
-#### Examples of Decision Tree
+#### Examples of Naive Bayes Classifier
 * Spam Detection: Naive Bayes can be used to classify emails as either spam or non-spam.
 * Sentiment Analysis: Naive Bayes can be employed to determine the sentiment of a given text, such as a product review or a social media post.
 * Document Categorization: Naive Bayes can be used to automatically categorize documents into predefined categories. 
@@ -134,6 +134,21 @@ Multi-Classification: </br>
 
 #### Support Vectors and Margins
 `Support vectors` are the points in the training set closest to the decision boundary. `Margin` is the distance between a support vector and the decision boundary.
+
+## Random Forest
+`Random forest` is an ensemble machine learning technique. A `random forest` contains many decision trees that all work together to classify new points.
+
+#### Examples of Random Forest
+* Feature Importance: Random Forest can provide insights into the importance of different features in a dataset. 
+* Missing Value Imputation: Random Forest can be used for imputing missing values in a dataset. 
+* Recommender Systems: Random Forest can be used in recommender systems to suggest items or content to users based on their preferences. 
+
+#### Bagging
+`Random forests` create different trees using a process known as `bagging`, which is short for `bootstrapped aggregating`. 
+
+
+
+
 
 
 
